@@ -10,7 +10,6 @@ describe("firstNonRepeatedCharacter", function() {
   });
   it("should return 'L' if given 'ALABAMA'", function() {
     assert.equal(firstNonRepeatedCharacter("ALABAMA"), "L");
-
   });
   it("should return 'sorry' if given 'BABA'", function() {
     assert.equal(firstNonRepeatedCharacter("BABA"), "sorry");
